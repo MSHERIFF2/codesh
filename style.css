@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 769px) {
+  .logo {
+    background: #0076be;
+    height: 50px;
+    padding: 11px;
+    position: fixed;
+    display: flex;
+    flex: 300px;
+    width: 100%;
+  }
+
+  .logo .Menus ul {
+    display: none;
+  }
+  .logo .Menus {
+    border: 2px solid #00ff00;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+
+    color: white;
+  }
+  .logo .Menus:hover ul {
+    display: block;
+  }
+  .logo img {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo {
+    background: #0076be;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2px 2px 0 0;
+    margin-top: 0;
+  }
+
+  .logo ul {
+    list-style: none;
+
+    color: white;
+    font-size: 20px;
+    border: 2px solid #00ff00;
+    width: 150px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+  }
+  .logo :hover ul {
+    cursor: pointer;
+  }
+  .logo ul li ul {
+    display: none;
+  }
+  .logo ul:hover li ul {
+    display: block;
+    color: #ffff;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: none;
+    font: 400;
+  }
+  .logo img {
+    width: 150px;
+    height: 50px;
+    margin-top: auto;
+  }
+  .flow .courseav {
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    
+    margin: auto;
+
+    border-radius: 20px;
+    width: 25%;
+    height: 400px;
+    align-items: center;
+
+    color: #0076be;
+  }
+  .flow .courseav button {
+    height: 40px;
+    background-color: #0076be;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 300px;
+  }
+  .flow .courseav h1 {
+    text-align: center;
+  }
+  .flow {
+    width: 100%;
+    height: 600px;
+    background: #0075bea6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 50px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    align-items: center;
+  }
+  .flow button{
+    width: fit-content;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    background: #00ff00;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+  }
+  .flow h1, p{
+    text-align: center;
+  }
+  .cat{
+    background:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:300px ;
+    width: 100%;
+    height: 1000px;
+    row-gap: 1em;
+  }
+  .cat .card{
+    width: 200px;
+    height: 220px;
+    padding: 23px;
+    color: #0076be;
+    text-align: center;
+    font: 500;
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px rgb(230, 139, 139);
+    margin: auto;
+    margin-top: 10px;
+  
+  }
+  .footer{
+    width: 100%;
+    height: 25px;
+    padding: 50px;
+    color: white;
+    background: #0076be;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .courseav img{
+    width: 5vb;
+    height: 6vh;
+    margin-top: 10px;
+  }
+}
